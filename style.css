@@ -1,0 +1,76 @@
+.main-article {
+    
+}
+
+.main-article h2 {
+    margin-bottom: 30px;
+    
+}
+
+.main-article img {
+    padding: 5px;
+    border: 2px solid #E5E5E5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pattern {
+    background-image: url(./images/pattern.png);
+    background-repeat: no-repeat;
+    min-height: 367px;
+    width: 273px;
+}
+
+.pattern--title {
+  padding-top: 20px;
+  margin-bottom: 5px;
+  font-size: 110%;
+  font-weight: bold;
+  color: #A7A7A7;
+}
+
+.darker {
+    color: #454545;
+}
+
+.percent {
+    font-size: 300%;
+    font-weight: bold;
+    color: #454545;
+}
+
+.pattern .col-md-6 {
+    color: #A7A7A7;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.pattern .value {
+    color: #454545;
+    margin-bottom: 30px;
+}
