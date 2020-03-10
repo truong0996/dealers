@@ -56,7 +56,7 @@ body {
 }
 
 .form-inline > .btn-subscribe {
-    margin:auto;
+    margin: auto;
     height: 2.3rem;
     width: 7rem;
     background-image: linear-gradient(#bbc9d4, #91a7b8);
@@ -136,4 +136,134 @@ body {
     background-image: url(./images/button.png);
 
     background-repeat: no-repeat;
+}
+
+.border-horizon {
+    width: 100%;
+    height: 1px;
+    background-image: url(./images/splitLine.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo-images {
+    width: 100%;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-images {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-images img {
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+       
+    }
+}
+
+.logo-images img {
+    max-height: 70%;
+}
+
+.box-detail p {
+    font-size: 130%;
+    font-weight: 500;
+    color: #454545;
+}
+
+.box-img {
+    padding: 5px;
+    border: 2px solid #e5e5e5;
+}
+
+.box-img img {
+    width: 100%;
+}
+
+.box-img .col-4 > p {
+    color: #a7a7a7;
+    font-weight: 500;
+    font-size: 0.8rem;
+    margin: 3px 0;
+}
+
+.box-img .col-4 > div {
+    font-weight: bold;
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+}
+
+.box > .row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.row > .box-time-remain {
+    font-size: 0.8rem;
+    color: #a7a7a7;
+}
+
+.row > .box-btn {
+    min-height: 24px;
+    min-width: 78px;
+    background-image: url(./images/seedeal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #5d7730;
+    font-size: 0.7rem;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: center;
+}
+
+.border-vertical {
+    width: 1px;
+    margin-left: -1px;
+    margin-top: -2rem;
+    overflow-y: hidden;
+    background-image: url(./images/border-vertical.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.info-title {
+    font-size: 1.5rem;
+    color: #454545;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.info-text {
+    font-size: 1.1rem;
+    color: #8c8b8c;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.info-button {
+    color: #8c8b8c;
+    background-color: #e9e9e9;
+    font-weight: bold;
+    font-size: 0.9rem;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 2rem;
+    margin-top: -15px;
+}
+
+.footer-info {
+    padding: 4px 0;
 }
