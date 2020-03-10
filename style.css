@@ -26,6 +26,13 @@ body {
     background-image: url(./images/top-stripe.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    position: relative;
+}
+
+.subscribe-box .stemp {
+    position: absolute;
+    right: -10%;
+    top: -40%;
 }
 
 .subscribe-box p {
